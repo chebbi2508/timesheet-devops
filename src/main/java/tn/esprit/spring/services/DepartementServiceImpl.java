@@ -24,7 +24,7 @@ public class DepartementServiceImpl implements IDepartementService {
 		try {
 			
 			
-			l.info("In method test push 2 :"); 
+			l.info("In method test push 55 :"); 
 			l.info("In method retrieveAllDepartements :"); 
 			departements = (List<Departement>) departementRepository.findAll();  
 			l.debug("connexion à la DB Ok:");
