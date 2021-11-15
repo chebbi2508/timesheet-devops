@@ -22,7 +22,7 @@ public class DepartementServiceImpl implements IDepartementService {
 	public List<Departement> retrieveAllDepartements() { 
 		List<Departement> departements = null; 
 		try {
-			
+			l.info("In method test aaaaaaa :"); 
 			 l.info("In method test aaaaaaa :"); 
 			l.info("In method test aaaaaaa :"); 
 			l.info("In method retrieveAllDepartements :"); 
