@@ -22,9 +22,8 @@ public class DepartementServiceImpl implements IDepartementService {
 	public List<Departement> retrieveAllDepartements() { 
 		List<Departement> departements = null; 
 		try {
-			l.info("In method test fff :"); 
-			 l.info("In method test aaaaaaa :"); 
-			l.info("In method test aaaaaaa :"); 
+			
+			l.info("In method test jenkins :"); 
 			l.info("In method retrieveAllDepartements :"); 
 			departements = (List<Departement>) departementRepository.findAll();  
 			l.debug("connexion à la DB Ok:");
